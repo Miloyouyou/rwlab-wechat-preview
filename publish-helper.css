@@ -1,0 +1,16 @@
+.publish-toolbar{position:sticky;top:0;z-index:10;max-width:677px;margin:0 auto;padding:12px 14px;background:#edf2f6;border-bottom:1px solid #d7e0e7;color:#20384e;font-family:'PingFang SC','Microsoft YaHei',Arial,sans-serif;box-shadow:0 3px 12px rgba(13,49,85,.08)}
+.publish-toolbar .publish-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.publish-toolbar button,.publish-toolbar a{border:0;border-radius:4px;padding:9px 12px;background:#0d3155;color:#fff;font-size:13px;font-weight:600;text-decoration:none;cursor:pointer}
+.publish-toolbar .publish-secondary{background:#fff;color:#0d3155;border:1px solid #bdcbd7}
+.publish-toolbar button:disabled{opacity:.55;cursor:wait}
+.publish-toolbar .publish-status{margin:8px 0 0;min-height:18px;font-size:12px;line-height:1.5;color:#40586c}
+.publish-toolbar .publish-note{margin:4px 0 0;font-size:11px;line-height:1.5;color:#687b8c}
+@media(max-width:420px){.publish-toolbar{padding:9px}.publish-toolbar button,.publish-toolbar a{padding:8px 9px;font-size:12px}}
+#wechat-article [data-carousel]{font-size:0}
+#wechat-article [data-carousel] section{width:auto!important;max-width:none!important;margin-right:10px!important;font-size:14px}
+#wechat-article [data-carousel] img{width:auto!important;max-width:none!important;object-fit:contain!important;background:transparent!important}
+#wechat-article [data-carousel="lab"] img{height:200px!important}
+#wechat-article [data-carousel="awards"] img{height:240px!important}
+#wechat-article [data-carousel="ip"] img{height:350px!important}
+#wechat-article [data-carousel="papers"] section{width:100%!important;max-width:100%!important;margin-right:0!important}
+#wechat-article [data-carousel="papers"] img{width:100%!important;height:auto!important}
