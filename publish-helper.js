@@ -31,7 +31,7 @@
     }).then(async function (blob) {
       const bitmap = await createImageBitmap(blob);
       const filename = url.pathname.split('/').pop().toLowerCase();
-      const detailed = /paper-|patent-|copyright-/.test(filename);
+      const detailed = /paper-|patent-|copyright-|invitation-/.test(filename);
       const longEdge = detailed ? 2800 : 1400;
       const ratio = Math.min(1, longEdge / Math.max(bitmap.width, bitmap.height));
       if (ratio < 1 || blob.size > 900000) {
